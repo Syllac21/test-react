@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import './App.css';
 import Header from './component/Header';
+import Footer from './component/footer';
+import About from './component/about';
+import Home from './component/home';
 
 
 
@@ -9,9 +12,10 @@ function App() {
   const handlePageChange = (newPage) => {setActivePage(newPage)}
 
   return (
-    <div className="App">
+    <div className="App h-screen">
       <Header page = {activePage} onPageChange = {handlePageChange} />
-      {activePage}
+      {(activePage === 'Home' ? <Home/> : activePage === 'About' ? <About /> : activePage === 'Journey' ? 'journey' : (activePage === 'Contact' ? 'contact' : ''))}
+      <Footer/>
     </div>
   );
 }

@@ -1,23 +1,23 @@
 export const MenuItems = [
     {
       Title: "Accueil",
-      url: "home",
-      cName: "rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
+      url: "Home",
+      cName: "rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
     },
     {
       Title: "A propos",
-      url: "about",
-      cName: "rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
+      url: "About",
+      cName: "rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
     },
     {
       Title: "Mon parcours",
-      url: "journey",
-      cName: "rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
+      url: "Journey",
+      cName: "rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
     },
     {
       Title: "Me contacter",
-      url: "contact",
-      cName: "rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
+      url: "Contact",
+      cName: "rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
     },
     
   ];
